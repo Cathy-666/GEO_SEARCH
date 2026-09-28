@@ -19,21 +19,6 @@
 
 ---
 
-# Demo体验
-
-## 示例看板
-
-无需安装或登录，可直接查看脱敏示例：
-
-- GitHub：
-  https://github.com/Cathy-666/GEO_SEARCH
-
-- 示例看板：
-  https://github.com/Cathy-666/GEO_SEARCH/blob/main/examples/dashboard.html
-
-> 示例数据均为合成数据，不代表真实平台输出或实际业务结果。
-
----
 
 # 核心能力
 
