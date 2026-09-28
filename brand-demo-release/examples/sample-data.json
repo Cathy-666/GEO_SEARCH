@@ -1,0 +1,213 @@
+[
+  {
+    "brandName": "示例教育",
+    "platform": "doubao",
+    "question": "给我推荐几个高中线上辅导机构",
+    "answerText": "高途提供课程；示例教育提供练习服务。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-0-0",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "doubao",
+    "question": "给我推荐几个高中在线辅导机构",
+    "answerText": "示例教育提供学习计划；学而思提供课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-0-1",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "doubao",
+    "question": "给我推荐几个高中在线教育平台",
+    "answerText": "可按学习需求选择课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-0-2",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "deepseek",
+    "question": "给我推荐几个高中线上辅导机构",
+    "answerText": "示例教育提供学习计划；学而思提供课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-1-0",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "deepseek",
+    "question": "给我推荐几个高中在线辅导机构",
+    "answerText": "可按学习需求选择课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-1-1",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "deepseek",
+    "question": "给我推荐几个高中在线教育平台",
+    "answerText": "高途提供课程；示例教育提供练习服务。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-1-2",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "yiyan",
+    "question": "给我推荐几个高中线上辅导机构",
+    "answerText": "可按学习需求选择课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-2-0",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "yiyan",
+    "question": "给我推荐几个高中在线辅导机构",
+    "answerText": "高途提供课程；示例教育提供练习服务。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-2-1",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "yiyan",
+    "question": "给我推荐几个高中在线教育平台",
+    "answerText": "示例教育提供学习计划；学而思提供课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-2-2",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "yuanbao",
+    "question": "给我推荐几个高中线上辅导机构",
+    "answerText": "高途提供课程；示例教育提供练习服务。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-3-0",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "yuanbao",
+    "question": "给我推荐几个高中在线辅导机构",
+    "answerText": "示例教育提供学习计划；学而思提供课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-3-1",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "yuanbao",
+    "question": "给我推荐几个高中在线教育平台",
+    "answerText": "可按学习需求选择课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-3-2",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "qianwen",
+    "question": "给我推荐几个高中线上辅导机构",
+    "answerText": "示例教育提供学习计划；学而思提供课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-4-0",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "qianwen",
+    "question": "给我推荐几个高中在线辅导机构",
+    "answerText": "可按学习需求选择课程。",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-4-1",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  },
+  {
+    "brandName": "示例教育",
+    "platform": "qianwen",
+    "question": "给我推荐几个高中在线教育平台",
+    "answerText": "",
+    "error": "合成示例：模拟超时",
+    "references": [
+      {
+        "title": "示例教育课程介绍（合成引用）",
+        "url": "https://example.com/sample-4-2",
+        "date": "2026-09-28"
+      }
+    ],
+    "shareUrl": ""
+  }
+]

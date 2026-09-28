@@ -1,0 +1,14 @@
+const fs=require('fs'), path=require('path'), os=require('os'), {spawnSync}=require('child_process');
+const root=path.resolve(__dirname,'..');
+const temp=fs.mkdtempSync(path.join(os.tmpdir(),'geo-example-'));
+for(const f of ['brand_config.js','brand_ranking.js','build_dashboard.js','media_classifier.js'])fs.copyFileSync(path.join(root,f),path.join(temp,f));
+fs.cpSync(path.join(root,'questions'),path.join(temp,'questions'),{recursive:true});
+fs.writeFileSync(path.join(temp,'demo-config.json'),JSON.stringify({brandName:'示例教育'}));
+const config=require(path.join(temp,'brand_config.js'));
+const rows=require('./sample-data.json');
+const batch=path.join(config.DATA_ROOT,'2026-09-28','batches');fs.mkdirSync(batch,{recursive:true});
+for(const p of ['doubao','deepseek','yiyan','yuanbao','qianwen'])fs.writeFileSync(path.join(batch,'brand-'+p+'-20260928-01.json'),JSON.stringify(rows.filter(r=>r.platform===p)));
+const result=spawnSync(process.execPath,[path.join(temp,'build_dashboard.js'),'--date','20260928','--sample'],{env:{...process.env,NODE_PATH:path.join(root,'node_modules')},encoding:'utf8'});
+if(result.status!==0)throw Error(result.stderr);
+fs.copyFileSync(path.join(config.DATA_ROOT,'2026-09-28','dashboards','brand-dashboard-20260928.html'),path.join(__dirname,'dashboard.html'));
+console.log('合成示例看板生成成功');

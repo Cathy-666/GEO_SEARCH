@@ -1,0 +1,27 @@
+{
+  "name": "ai-search",
+  "version": "1.0.0",
+  "description": "AI搜索监控 - 多平台聚合看板",
+  "main": "build_dashboard.js",
+  "scripts": {
+    "run:doubao": "node run_v3_fixed.js doubao",
+    "run:deepseek": "node run_v3_fixed.js deepseek",
+    "run:yiyan": "node run_v3_fixed.js yiyan",
+    "run:yuanbao": "node run_v3_fixed.js yuanbao",
+    "run:qianwen": "node run_v3_fixed.js qianwen",
+    "build": "node build_dashboard.js",
+    "setup": "node setup_brand.js",
+    "test": "node test_demo.js",
+    "check:release": "node check_release.js",
+    "build:example": "node examples/generate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "iconv-lite": "^0.6.3",
+    "playwright-core": "^1.58.2",
+    "xlsx": "^0.18.5"
+  }
+}
